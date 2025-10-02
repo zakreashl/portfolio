@@ -1,19 +1,55 @@
 #titleText{
-    color: #ffffff;
+    color: #ffd500;
     font-size: 75px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #headerText{
-    color: #ffffff;
+    color: #ffd500;
     font-size: 50px;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #text{
-    color: #ffffff;
+    color: #ffd500;
     font-size: 30px;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    color: #ffd500;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(52, 52, 52);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+
+.navbar li{
+    float: left;
 }
