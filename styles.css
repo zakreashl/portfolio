@@ -23,6 +23,14 @@ p {
 }
 
 .link{
+    .link:link,
+    .link:visited,
+    .link:hover,
+    .link:active {
+        color: inherit;
+    }
+
+
     text-decoration: none;
     display: block;
     text-decoration-color: var(--text-muted);
