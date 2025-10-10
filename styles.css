@@ -24,13 +24,13 @@ p {
 
 .link{
     text-decoration: none;
-    padding: 15px;
     display: block;
-    transition: all 0.2s ease; 
+    text-decoration-color: var(--text-muted);
 }
 
 .link:hover {
     text-decoration: underline;
+    text-decoration-color: var(--text-muted);
 }
 
 .container{
@@ -65,13 +65,16 @@ p {
 
 .heroSection{
     min-height: 100vh;
-    background-image: url(/Pictures/mountains.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.heroSection .content {
+    text-align: center;
 }
 
 .navbar{
