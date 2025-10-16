@@ -1,13 +1,11 @@
-import HeroSection from "./HeroSection.jsx";
-import NavBar from "./NavBar.jsx"
 import "./index.css"
+import HomePage from "./HomePage"
 
 function App() {
 
   return(
     <>
-    <NavBar/>
-    <HeroSection/>
+        <HomePage/>
     </>
   );
 }
