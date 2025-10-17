@@ -25,3 +25,83 @@ h1 {
 p {
     color: var(--text-muted);
 }
+
+a{
+    text-decoration: none;
+    color: var(--text-muted);
+    text-decoration-color: var(--text-muted);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--text-muted);
+    text-decoration-color: var(--text-muted);
+}
+
+/* Hero Section */
+
+.heroSection{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroSection .content {
+    text-align: center;
+}
+
+
+/* Nav Bar */
+
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: var(--bg);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: black;
+}
+
+.navbar li{
+    float: left;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    align-content: center;
+
+    
+}
+
+.footer p{
+    font-size: 20px;
+}
+
+.footer hr{
+    margin-bottom: 20px;
+}
