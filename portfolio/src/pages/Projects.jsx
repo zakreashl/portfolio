@@ -9,6 +9,7 @@ import luminata from "./../assets/luminata.png";
 import heap from "./../assets/heap.jpg"
 import stack from "./../assets/stack.png"
 import cShell from "./../assets/cShell.png"
+import matrix from "./../assets/matrix.gif"
 
 
 function Projects() {
@@ -24,11 +25,11 @@ function Projects() {
 
         <ProjectSquareContainer>
             <ProjectSquare
-            link={'https://zoodoz.itch.io/'}
-            bg={luminata}
-            alt={"luminata thumbnail"}
-            header={"Games"}
-            description={"All of the Unity games I have made"}
+            link={"https://github.com/zakreashl/Matrix"}
+            bg={matrix}
+            alt={"Cool matrix animation"}
+            header={"Matrix"}
+            description={"Randomly generated matrix animation in C"}
             />
 
             <ProjectSquare
@@ -52,7 +53,15 @@ function Projects() {
             bg={cShell}
             alt={"cShell"}
             header={"cShell"}
-            description={"A custom shell I made in c"}
+            description={"A custom shell I made in C"}
+            />
+
+            <ProjectSquare
+            link={'https://zoodoz.itch.io/'}
+            bg={luminata}
+            alt={"luminata thumbnail"}
+            header={"Games"}
+            description={"All of the Unity games I have made"}
             />
         </ProjectSquareContainer>
 
