@@ -10,6 +10,7 @@ import heap from "./../assets/heap.jpg"
 import stack from "./../assets/stack.png"
 import cShell from "./../assets/cShell.png"
 import matrix from "./../assets/matrix.gif"
+import search from "./../assets/wiki-search-engine.jpg"
 
 
 function Projects() {
@@ -24,6 +25,14 @@ function Projects() {
         />
 
         <ProjectSquareContainer>
+            <ProjectSquare
+                link={"https://github.com/zakreashl/TF-IDF-Search-Engine"}
+                bg={search}
+                alt={"Wikipedia search"}
+                header={"TF-IDF Search Engine"}
+                description={"A search engine able to search through 10k wikipedia articles with TF-IDF made in python"}
+            />
+
             <ProjectSquare
             link={"https://github.com/zakreashl/Matrix"}
             bg={matrix}
