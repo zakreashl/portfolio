@@ -11,6 +11,7 @@ import stack from "./../assets/stack.png"
 import cShell from "./../assets/cShell.png"
 import matrix from "./../assets/matrix.gif"
 import search from "./../assets/wiki-search-engine.jpg"
+import tcp_server from "./../assets/tcp server.png"
 
 
 function Projects() {
@@ -25,6 +26,14 @@ function Projects() {
         />
 
         <ProjectSquareContainer>
+            <ProjectSquare
+                link={"https://github.com/zakreashl/TCP-Server"}
+                bg={tcp_server}
+                alt={"TCP Server Demo"}
+                header={"TCP Server"}
+                description={"A TCP server/client with the ability to send and recive messages through a nice TUI"}
+            />
+
             <ProjectSquare
                 link={"https://github.com/zakreashl/TF-IDF-Search-Engine"}
                 bg={search}
