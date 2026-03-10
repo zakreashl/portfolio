@@ -1,5 +1,4 @@
 import HeroSection from "../HeroSection";
-import NavBar from "../NavBar";
 import ProjectSquareContainer from "../ProjectSquareContainer";
 import ProjectSquare from "../ProjectSquare";
 import Footer from "../Footer";
@@ -17,7 +16,6 @@ import tcp_server from "./../assets/tcp server.png"
 function Projects() {
     return(
         <>
-        <NavBar/>
 
         <HeroSection
         image={react}
